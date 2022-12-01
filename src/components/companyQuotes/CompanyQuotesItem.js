@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -14,9 +13,16 @@ function CompanyQuotesItem(props) {
     <div className="detailsContainer">
       <ul className="dataList">
         {allData.map((data) => (
-          <li key={uuidv4()} className="financialDetails">
-            <div className="key">{data.key}</div>
-            <div className="value">{data.value}</div>
+          <li
+            key={uuidv4()}
+            className="financialDetails"
+          >
+            <div className="key">
+              {data.key}
+            </div>
+            <div className="value">
+              {data.value}
+            </div>
           </li>
         ))}
       </ul>
@@ -26,5 +32,11 @@ function CompanyQuotesItem(props) {
 export default CompanyQuotesItem;
 
 CompanyQuotesItem.propTypes = {
-  quotes: PropTypes.object.isRequired,
+  quotes:
+          PropTypes.objectOf(
+            {
+              name: PropTypes.string,
+              symbol: PropTypes.string,
+            },
+          ).isRequired,
 };

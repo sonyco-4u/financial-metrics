@@ -38,41 +38,32 @@ function Company() {
         <Link to="/financial-metrics">
           <BiChevronLeft className="backBtn" />
         </Link>
-        <h2 className="comapny-head-info">
-          Click a company name to watch the stock price quotes!!
-        </h2>
+        <h2 className="comapny-head-info">Click a company name to watch the stock price quotes!!</h2>
       </div>
 
-      {company.length === 0 ? (
-        <h2 className="loading">Loading comapny list...</h2>
-      ) : (
-        <ul className="company-list-conatiner">
-          {company
-            .filter((value) => {
+      { company.length === 0
+        ? (
+          <h2 className="loading">Loading comapny list...</h2>
+        )
+        : (
+          <ul className="company-list-conatiner">
+            {company.filter((value) => {
               let result = '';
               if (searchCompany === '') {
                 result = value;
-              }
-              if (
-                value.name.toLowerCase().includes(searchCompany.toLowerCase())
-              ) {
+              } if (value.name.toLowerCase().includes(searchCompany.toLowerCase())) {
                 result = value;
               }
               return result;
-            })
-            .map((company) => {
-              const { name, symbol } = company;
-              return (
-                <CompanyItem
-                  key={company.symbol}
-                  name={name}
-                  symbol={symbol}
-                  exchange={exchange}
-                />
-              );
-            })}
-        </ul>
-      )}
+            }).map((company) => (
+              <CompanyItem
+                key={company.symbol}
+                company={company}
+                exchange={exchange}
+              />
+            ))}
+          </ul>
+        )}
     </div>
   );
 }

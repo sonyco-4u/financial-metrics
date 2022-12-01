@@ -17,17 +17,12 @@ const Homepage = () => {
     <div className="container">
       <ul className="exchange-list-conatiner">
         <h1 className="homepage-heading">Please Select Exchange</h1>
-        {exchange.map((exchange) => {
-          const { symbol, image, alt } = exchange;
-          return (
-            <HomepageItem
-              key={exchange.symbol}
-              symbol={symbol}
-              image={image}
-              alt={alt}
-            />
-          );
-        })}
+        {exchange.map((exchange) => (
+          <HomepageItem
+            key={exchange.symbol}
+            exchange={exchange}
+          />
+        ))}
       </ul>
     </div>
   );
