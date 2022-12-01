@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click here to see live Demo](https://rainbow-chimera-f57cdd.netlify.app/)
+- [Click here to see live Demo](https://deploy-preview-4--fastidious-yeot-7f3b0f.netlify.app)
 - [presentation video](https://www.loom.com/share/c8fb2903a0ea47528596498e54774f65)
 
 ## 💻 Getting Started <a name="getting-started"></a>
