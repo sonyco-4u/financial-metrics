@@ -1,4 +1,30 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+# 📖 [your_project_name] <a name="about-project"></a>
 
 # Project Name : Financial Metrics
 
@@ -6,81 +32,45 @@
 
 - User can go to Home Page that display financial information from the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs)
 
-You can find live project at
+## 🛠 Built With <a name="built-with"></a>
 
-## Built With
+- React
+- Redux
+  = API
+- CSS 3
+- HTML 5
+- Javascript
+- ESLint
+- Webpack
 
-- React JS with Redux
-- JSX
-- JavaScripts
-- GitFlow
+### Key Features <a name="key-features"></a>
 
-## Live Demo (Link for Our Financial Metrics)
+- Shows a List of Countries
+- Details page you can see pollution data for the country clicked
 
-### Github
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Take a look at the financial-metrics page
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Development set up
+- [Click here to see live Demo](https://deploy-preview-4--fastidious-yeot-7f3b0f.netlify.app)
+- [presentation video](https://www.loom.com/share/c8fb2903a0ea47528596498e54774f65)
 
-Clone Repository using
+## 💻 Getting Started <a name="getting-started"></a>
 
-`git clone git@github.com/sonyco-4u/financial-metrics.git`
+### Prerequisites
 
-OR using HTTPS
+- To get a local copy up and running follow these simple example steps.
 
-`git clone https://github.com/sonyco-4u/financial-metrics.git`
+```
+- git https://github.com/sonyco-4u/financial-metrics
+- cd financial-metrics
+- npm i
+- npm start
+```
 
-move into project directory
+<!-- AUTHORS -->
 
-`cd financial-metrics`
-
-Install Project dependancies using `NPM`
-
-`npm install`
-
-launch project locally with
-
-`npm start`
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Author
+## 👥 Author <a name="authors"></a>
 
 👤 Ezema Anthony Sunday
 
@@ -88,20 +78,40 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - Twitter: [@EZEMASUN](https://twitter.com/EZEMASUN)
 - LinkedIn: [ezema-anthony-sunday](https://www.linkedin.com/in/sunday-athony-ezema/)
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/sonyco-4u/financial-metrics/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Microverse team for guidance
+> Design Inspiration: [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
-## 📝 License
+<!-- FAQ (optional) -->
 
-This project is [MIT](./MIT.md) licensed.
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **How to clone the application?**
+
+  - Kindly copy the repository link and then on your comand line run "git clone <repository link>"
+
+- **How to start the application?**
+
+  - On your command line, run "npm start"
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/sonyco-4u/financial-metrics/blob/master/MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
